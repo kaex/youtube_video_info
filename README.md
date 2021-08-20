@@ -5,13 +5,13 @@
 
 ### [pub.dev/youtube_video_info](https://pub.dev/packages/youtube_video_info)
 
-This is a lightweight⚡ package to fetch metadata for YouTube video from the url
+This is a lightweight⚡ package to fetch video info for YouTube from the url
 
 ### To install, add to pubspec.yaml
 
 ```yaml
 flutter:
-    sdk: flutter
+  sdk: flutter
 youtube_video_info: ^1.0.0
 ```
 
