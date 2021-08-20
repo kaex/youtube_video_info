@@ -1,6 +1,6 @@
 name: youtube_video_info
 description: This is a lightweight⚡ package to fetch for youtube video info from the url
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/kaex/youtube_video_info
 
 environment:

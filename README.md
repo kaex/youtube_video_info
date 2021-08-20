@@ -9,7 +9,7 @@ This is a lightweight⚡ package to fetch metadata for YouTube video from the ur
 
 ### To install, add to pubspec.yaml
 
-```
+```yaml
 flutter:
     sdk: flutter
 youtube_video_info: ^1.0.0
@@ -17,10 +17,24 @@ youtube_video_info: ^1.0.0
 
 and then run `flutter pub get`
 
+Import the library
+
+```dart
+import 'package:youtube_video_info/youtube.dart';
+```
+
 ### Calling the method
 
 ```
 YoutubeDataModel videoData = await YoutubeData.getData(link);
+```
+
+### Example
+
+```dart
+var title = videoData.title; // "Ed Sheeran - Bad Habits [Official Video]"
+var averageRating = videoData.averageRating; // 4.13242
+var durationSeconds = videoData.durationSeconds; // 167
 ```
 
 ![example gif](https://media0.giphy.com/media/qhrpkPloaPHcuZa9N9/giphy.gif)
