@@ -51,7 +51,7 @@ class YoutubeDataModel {
         authorUrl: json['author_url'] ?? null,
         durationSeconds: int.tryParse(json['lengthSeconds']) ?? null,
         keywords: json['keywords'] ?? null,
-        averageRating: json['averageRating'].toDouble(),
+        averageRating: json['averageRating']?.toDouble() ?? null,
         viewCount: int.tryParse(json['viewCount']) ?? null,
         type: json['type'] ?? null,
         height: json['height'] ?? null,

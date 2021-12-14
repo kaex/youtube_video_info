@@ -1,6 +1,6 @@
 name: youtube_video_info
 description: This is a lightweight⚡ package to fetch video info for YouTube from the url
-version: 1.0.0+2
+version: 1.0.1
 homepage: https://github.com/kaex/youtube_video_info
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.3
+  http: ^0.13.4
   html: ^0.15.0
 
 dev_dependencies:
