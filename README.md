@@ -12,7 +12,7 @@ This is a lightweight⚡ package to fetch video info for YouTube from the url
 ```yaml
 flutter:
   sdk: flutter
-youtube_video_info: ^1.0.0
+youtube_video_info: ^1.0.2
 ```
 
 and then run `flutter pub get`

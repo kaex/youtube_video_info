@@ -1,3 +1,7 @@
+## [1.0.2]
+
+    - Upgraded dependencies.
+
 ## [1.0.1]
 
     - Fixed an issue where averageRating was causing it to crash.
